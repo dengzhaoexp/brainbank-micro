@@ -1,0 +1,7 @@
+api-gateway/config/*
+service-chat/config/*
+service-user/config/*
+service-file/config/*
+
+
+*.yaml

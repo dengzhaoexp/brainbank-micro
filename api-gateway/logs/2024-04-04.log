@@ -1,0 +1,4 @@
+time="2024-04-04 16:01:41" level=info msg="Successfully loaded configuration file in api-gateway service" func=api-gateway/config.InitConfig file="/Users/zhaodeng/go_workspace/BrainBank/api-gateway/config/init.go:45"
+time="2024-04-04 16:04:59" level=info msg="Successfully loaded configuration file in api-gateway service" func=api-gateway/config.InitConfig file="/Users/zhaodeng/go_workspace/BrainBank/api-gateway/config/init.go:45"
+time="2024-04-04 16:33:08" level=info msg="Successfully loaded configuration file in api-gateway service" func=api-gateway/config.InitConfig file="/Users/zhaodeng/go_workspace/BrainBank/api-gateway/config/init.go:45"
+time="2024-04-04 16:34:39" level=info msg="Successfully loaded configuration file in api-gateway service" func=api-gateway/config.InitConfig file="/Users/zhaodeng/go_workspace/BrainBank/api-gateway/config/init.go:45"

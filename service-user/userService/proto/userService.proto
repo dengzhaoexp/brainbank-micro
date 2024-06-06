@@ -1,0 +1,19 @@
+syntax = "proto3";
+package userService;
+import "userModel.proto";
+option go_package = "../;userService";
+
+service UserService {
+  // 注册
+  rpc UserRegister(RegisterRequest) returns(UserServiceResponse);
+  // 登录
+  rpc UserLogin(LoginRequest) returns(UserLoginResponse);
+  // 用户空间
+  rpc UserStorage(StorageRequest) returns(StorageResponse);
+  // 更新密码
+  rpc UpdatePassword(UpdatePwdRequest) returns(UserServiceResponse);
+  // 重设密码
+  rpc ResetPassword(ResetPwdRequest) returns(UserServiceResponse);
+  // 发送邮件
+  rpc SendEmail(SendEmailRequest) returns (UserServiceResponse);
+}

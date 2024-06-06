@@ -1,0 +1,35 @@
+syntax = "proto3";
+package fileService;
+import "fileModel.proto";
+option go_package = "../;fileService";
+
+
+service FileService{
+  // 获取头像
+  rpc GetAvatar(GetAvatarRequest) returns (AvatarResp);
+  // 更新头像
+  rpc UpdateAvatar(UpdateAvatarRequest) returns(AvatarResp);
+
+  // 创建神经元
+  rpc CreateNeuron(CreateNeuronRequest) returns (CreateNeuronResponse);
+  // 删除神经元
+  rpc DeleteNeuron(DeleteNeuronRequest) returns (FileServiceResponse);
+  // 重命名神经元
+  rpc RenameNeuron(RenameNeuronRequest) returns (RenameNeuronResponse);
+  // 获取所有神经元
+  rpc ListNeuron(ListNeuronRequest) returns (ListNeuronResponse);
+
+  // 上文文档
+  rpc UploadDocument(UploadDocumentRequest) returns (UploadDocumentResponse);
+  // 删除文档
+  rpc DeleteDocument(DeleteDocumentRequest) returns (FileServiceResponse);
+  // 获取所有文档
+  rpc ListDocuments(ListDocumentsRequest) returns (ListDocumentsResponse);
+  // 重命名文档
+  rpc RenameDocument(RenameDocumentRequest) returns (RenameDocumentResponse);
+  // 获取垃圾桶中所有文档
+  rpc ListDocumentsInBin(ListDocumentsInBinRequest) returns(ListDocumentsInBinResponse);
+  // 恢复文档
+  rpc RecoveryDocument(RecoveryDocumentRequest) returns(RecoveryDocumentResponse);
+
+}

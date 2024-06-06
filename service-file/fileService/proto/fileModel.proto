@@ -1,0 +1,128 @@
+syntax = "proto3";
+package fileService;
+option go_package = "../;fileService";
+
+message FileServiceResponse {
+  uint32 code = 1;
+}
+
+message GetAvatarRequest {
+  string user_id = 1;
+
+}
+message UpdateAvatarRequest {
+  string user_id = 1;
+  string avatar_name = 2;
+}
+
+message AvatarResp {
+  uint32 code = 1;
+  string avatar_url = 2;
+}
+
+message CreateNeuronRequest {
+  string neuron_name = 1;
+  string user_id = 2;
+}
+
+message NeuronData {
+  string neuron_id = 2;
+  string neuron_name = 3;
+}
+
+message CreateNeuronResponse {
+  uint32 code = 1;
+  NeuronData data = 2;
+}
+
+message DeleteNeuronRequest {
+  string  neuron_id = 1;
+  string user_id = 2;
+}
+
+message RenameNeuronRequest {
+  string user_id = 1;
+  string neuron_id = 2;
+  string neuron_name = 3;
+}
+
+message RenameNeuronResponse {
+  uint32 code = 1;
+  NeuronData data = 2;
+}
+
+message ListNeuronRequest {
+  string user_id = 1;
+}
+
+message ListNeuronResponse {
+  uint32 code = 1;
+  repeated NeuronData data = 2;
+}
+
+message UploadDocumentRequest {
+  string name = 1;
+  string type = 2;
+  string extension = 3;
+  string user_id = 4;
+  string neuron_id = 5;
+}
+
+message UploadDocumentResponse {
+  uint32 code = 1;
+  string file_url = 2;
+  DocumentData data = 3;
+}
+
+message DeleteDocumentRequest {
+  string document_id = 1;
+  string neuron_id = 2;
+  string user_id = 3;
+}
+
+message ListDocumentsRequest {
+  string user_id = 1;
+  string neuron_id = 2;
+}
+
+message DocumentData {
+  string document_id = 1;
+  string name = 2;
+  string type = 3;
+}
+
+message ListDocumentsResponse {
+  uint32 code = 1;
+  repeated DocumentData data = 2;
+}
+
+message RenameDocumentRequest {
+  string document_id = 1;
+  string neuron_id = 2;
+  string new_name = 3;
+}
+
+message RenameDocumentResponse {
+  uint32 code = 1;
+  DocumentData data = 2;
+}
+
+message ListDocumentsInBinRequest {
+  string user_id = 1;
+}
+
+message ListDocumentsInBinResponse {
+  uint32 code = 1;
+  repeated DocumentData data = 2;
+}
+
+message RecoveryDocumentRequest{
+  string user_id = 1;
+  string document_id = 2;
+
+}
+
+message RecoveryDocumentResponse{
+  uint32 code = 1;
+  DocumentData data = 2;
+}

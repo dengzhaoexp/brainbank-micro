@@ -1,0 +1,2 @@
+time="2024-03-07 08:36:23" level=error msg="检查用户头像bucket是否存在时出错:Get \"https://127.0.0.1:9000/user_avatar/?location=\": http: server gave HTTP response to HTTPS client" func=file/repositry/oss.InitMinioClient file="/Users/zhaodeng/go_workspace/BrainBank/service-file/repositry/oss/init.go:33"
+time="2024-03-07 08:37:55" level=error msg="检查用户头像bucket是否存在时出错:Get \"https://127.0.0.1:9000/avatar/?location=\": http: server gave HTTP response to HTTPS client" func=file/repositry/oss.InitMinioClient file="/Users/zhaodeng/go_workspace/BrainBank/service-file/repositry/oss/init.go:33"

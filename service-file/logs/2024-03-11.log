@@ -1,0 +1,3 @@
+time="2024-03-11 09:17:52" level=error msg="生成头像预签名URL发生错误:Expires cannot be greater than 7 days." func="file/core.(*AvatarService).GetAvatar" file="/Users/zhaodeng/go_workspace/BrainBank/service-file/core/fileService.go:64"
+time="2024-03-11 22:52:24" level=error msg="重命名Neuron时发生错误:WHERE conditions required" func="file/core.(*FileService).RenameNeuron" file="/Users/zhaodeng/go_workspace/BrainBank/service-file/core/fileService.go:245"
+time="2024-03-11 22:58:19" level=error msg="删除神经元发生错误:Error 1054 (42S22): Unknown column '2c7907d159b' in 'where clause'" func="file/core.(*FileService).DeleteNeuron" file="/Users/zhaodeng/go_workspace/BrainBank/service-file/core/fileService.go:211"

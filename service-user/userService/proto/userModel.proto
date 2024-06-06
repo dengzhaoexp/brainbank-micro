@@ -1,0 +1,61 @@
+syntax = "proto3";
+package userService;
+option go_package="../;userService";
+
+message RegisterRequest {
+ string email_address = 1;
+ string user_nickname = 2;
+ string account_password = 3;
+ string email_captcha = 4;
+}
+
+message LoginRequest {
+ string email_address = 1;
+ string account_password = 2;
+}
+
+message StorageRequest {
+ string user_id = 1;
+}
+
+message ResetPwdRequest {
+ string email_address = 1;
+ string account_password = 2;
+ string email_captcha = 4;
+}
+
+message UpdatePwdRequest {
+ string user_id = 1;
+ string account_password = 2;
+ string new_password = 3;
+}
+
+message UserServiceResponse {
+ uint32 code = 1;
+}
+
+message UserData {
+ string user_id = 1;
+ string nickname = 2;
+ string identity = 3;
+}
+
+message UserLoginResponse {
+ uint32 code = 1;
+ UserData data = 2;
+}
+
+message StorageData {
+ int64 used_space = 1;
+ int64 total_space = 2;
+}
+
+message StorageResponse {
+ uint32 code = 1;
+ StorageData data = 2;
+}
+
+message SendEmailRequest {
+ string email_address = 1;
+ uint32 type = 4;
+}

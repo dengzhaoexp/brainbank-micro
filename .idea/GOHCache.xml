@@ -1,0 +1,2103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GoORMHelperCache">
+    <option name="schemaMapping">
+      <map>
+        <entry key="AssistantMessageRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/chatService/conversationModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/service-chat/chatService/conversationModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="AssistantMessageResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/chatService/conversationModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/service-chat/chatService/conversationModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Author">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/types/chatdtos/chat.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="AvatarResp">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/fileService/fileModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/service-file/fileService/fileModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="AvatarResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/types/filedtos/file.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="CaptchaResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/weblib/handler/captcha.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ChatMessage">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/main.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ChatWrapper">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/wrapper/chatWrapper.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Content">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/types/chatdtos/chat.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Conversation">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/service-chat/repositry/model/conversation.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ConversationItem">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/types/chatdtos/chat.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ConversationMessageRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/service-chat/aiproxy/model.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ConversationMessageResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/service-chat/aiproxy/model.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ConversationMode">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/types/chatdtos/chat.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ConversationRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/types/chatdtos/chat.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ConversationResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/types/chatdtos/chat.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ConversationService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/chatService/conversationService.pb.micro.go" />
+              <option value="file://$PROJECT_DIR$/service-chat/chatService/conversationService.pb.micro.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ConversationTitleRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/service-chat/aiproxy/model.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ConversationTitleResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/service-chat/aiproxy/model.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ConversationsItem">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/chatService/conversationModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/service-chat/chatService/conversationModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ConversationsRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/chatService/conversationModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/service-chat/chatService/conversationModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ConversationsResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/chatService/conversationModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/api-gateway/types/chatdtos/chat.go" />
+              <option value="file://$PROJECT_DIR$/service-chat/chatService/conversationModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ConversionServer">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/service-chat/core/conversionService.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="CreateNeuronRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/fileService/fileModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/service-file/fileService/fileModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="CreateNeuronResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/fileService/fileModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/service-file/fileService/fileModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="CreateTitleRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/chatService/conversationModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/service-chat/chatService/conversationModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="CreateTitleResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/chatService/conversationModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/service-chat/chatService/conversationModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="DeleteDocumentRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/fileService/fileModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/api-gateway/types/filedtos/file.go" />
+              <option value="file://$PROJECT_DIR$/service-file/fileService/fileModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="DeleteNeuronRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/fileService/fileModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/service-file/fileService/fileModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Document">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/service-file/repositry/model/document.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="DocumentData">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/fileService/fileModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/service-file/fileService/fileModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="DocumentResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/types/filedtos/file.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Elastic">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/service-chat/config/init.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Email">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/service-user/config/init.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Etcd">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/config/init.go" />
+              <option value="file://$PROJECT_DIR$/service-chat/config/init.go" />
+              <option value="file://$PROJECT_DIR$/service-file/config/init.go" />
+              <option value="file://$PROJECT_DIR$/service-user/config/init.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="FileResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/types/filedtos/file.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="FileService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/fileService/fileService.pb.micro.go" />
+              <option value="file://$PROJECT_DIR$/service-file/core/fileService.go" />
+              <option value="file://$PROJECT_DIR$/service-file/fileService/fileService.pb.micro.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="FileServiceResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/fileService/fileModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/service-file/fileService/fileModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="FileWrapper">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/wrapper/fileWrapper.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GetAvatarRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/fileService/fileModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/service-file/fileService/fileModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GetConversationRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/chatService/conversationModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/service-chat/chatService/conversationModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GetConversationResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/chatService/conversationModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/api-gateway/types/chatdtos/chat.go" />
+              <option value="file://$PROJECT_DIR$/service-chat/chatService/conversationModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="LLMParam">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/service-file/repositry/model/neuron.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ListDocumentRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/types/filedtos/file.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ListDocumentsInBinRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/fileService/fileModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/service-file/fileService/fileModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ListDocumentsInBinResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/fileService/fileModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/service-file/fileService/fileModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ListDocumentsRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/fileService/fileModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/service-file/fileService/fileModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ListDocumentsResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/fileService/fileModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/api-gateway/types/filedtos/file.go" />
+              <option value="file://$PROJECT_DIR$/service-file/fileService/fileModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ListNeuronRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/fileService/fileModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/service-file/fileService/fileModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ListNeuronResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/fileService/fileModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/api-gateway/types/filedtos/file.go" />
+              <option value="file://$PROJECT_DIR$/service-file/fileService/fileModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="LoginRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/userService/userModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/service-user/userService/userModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Mail">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/service-user/repositry/model/email.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MailDao">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/service-user/repositry/dao/email.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Mapping">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/chatService/conversationModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/api-gateway/types/chatdtos/chat.go" />
+              <option value="file://$PROJECT_DIR$/service-chat/chatService/conversationModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Message">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/types/chatdtos/chat.go" />
+              <option value="file://$PROJECT_DIR$/service-chat/repositry/es/model.go" />
+              <option value="file://$PROJECT_DIR$/service-chat/repositry/model/message.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MessageStruct">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/types/chatdtos/chat.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Metadata">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/service-file/repositry/model/document.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Minio">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/service-file/config/init.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Mysql">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/service-chat/config/init.go" />
+              <option value="file://$PROJECT_DIR$/service-file/config/init.go" />
+              <option value="file://$PROJECT_DIR$/service-user/config/init.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Neuron">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/service-file/repositry/model/neuron.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="NeuronConfig">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/service-file/repositry/model/neuron.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="NeuronData">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/fileService/fileModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/service-file/fileService/fileModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="NeuronResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/types/filedtos/file.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="OpenAI">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/service-chat/config/init.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Permission">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/service-file/repositry/model/neuron.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="RabbitMQ">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/service-file/config/init.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="RecoveryDocumentRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/fileService/fileModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/api-gateway/types/filedtos/file.go" />
+              <option value="file://$PROJECT_DIR$/service-file/fileService/fileModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="RecoveryDocumentResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/fileService/fileModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/api-gateway/types/filedtos/file.go" />
+              <option value="file://$PROJECT_DIR$/service-file/fileService/fileModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Redis">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/service-user/config/init.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="RegisterRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/userService/userModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/service-user/userService/userModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="RenameDocumentRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/fileService/fileModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/api-gateway/types/filedtos/file.go" />
+              <option value="file://$PROJECT_DIR$/service-file/fileService/fileModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="RenameDocumentResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/fileService/fileModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/api-gateway/types/filedtos/file.go" />
+              <option value="file://$PROJECT_DIR$/service-file/fileService/fileModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="RenameNeuronRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/fileService/fileModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/api-gateway/types/filedtos/file.go" />
+              <option value="file://$PROJECT_DIR$/service-file/fileService/fileModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="RenameNeuronResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/fileService/fileModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/service-file/fileService/fileModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ResetPwdRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/userService/userModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/api-gateway/types/userdtos/user.go" />
+              <option value="file://$PROJECT_DIR$/service-user/userService/userModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ResourceDao">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/service-chat/repositry/dao/operation.go" />
+              <option value="file://$PROJECT_DIR$/service-file/repositry/dao/operation.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="SendEmailRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/userService/userModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/api-gateway/types/userdtos/user.go" />
+              <option value="file://$PROJECT_DIR$/service-user/userService/userModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Server">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/config/init.go" />
+              <option value="file://$PROJECT_DIR$/service-chat/config/init.go" />
+              <option value="file://$PROJECT_DIR$/service-file/config/init.go" />
+              <option value="file://$PROJECT_DIR$/service-user/config/init.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="SessionPromptTemplate">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/main.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="StorageData">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/userService/userModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/service-user/userService/userModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="StorageRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/userService/userModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/service-user/userService/userModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="StorageResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/userService/userModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/api-gateway/types/userdtos/user.go" />
+              <option value="file://$PROJECT_DIR$/service-user/userService/userModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="TitleResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/types/chatdtos/chat.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UpdateAvatarRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/fileService/fileModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/api-gateway/types/filedtos/file.go" />
+              <option value="file://$PROJECT_DIR$/service-file/fileService/fileModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UpdatePwdRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/userService/userModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/api-gateway/types/userdtos/user.go" />
+              <option value="file://$PROJECT_DIR$/service-user/userService/userModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UploadDocumentRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/fileService/fileModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/api-gateway/types/filedtos/file.go" />
+              <option value="file://$PROJECT_DIR$/service-file/fileService/fileModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UploadDocumentResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/fileService/fileModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/api-gateway/types/filedtos/file.go" />
+              <option value="file://$PROJECT_DIR$/service-file/fileService/fileModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/service-file/repositry/model/user.go" />
+              <option value="file://$PROJECT_DIR$/service-user/repositry/model/user.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UserClaims">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/pkg/utils/jwt.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UserDao">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/service-user/repositry/dao/operation.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UserData">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/userService/userModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/service-user/userService/userModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UserLoginRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/types/userdtos/user.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UserLoginResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/userService/userModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/api-gateway/types/userdtos/user.go" />
+              <option value="file://$PROJECT_DIR$/service-user/userService/userModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UserRegisterRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/types/userdtos/user.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UserService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/userService/userService.pb.micro.go" />
+              <option value="file://$PROJECT_DIR$/service-user/core/userService.go" />
+              <option value="file://$PROJECT_DIR$/service-user/userService/userService.pb.micro.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UserServiceResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/userService/userModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/api-gateway/types/userdtos/user.go" />
+              <option value="file://$PROJECT_DIR$/service-user/userService/userModel.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="conf">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/config/init.go" />
+              <option value="file://$PROJECT_DIR$/service-chat/config/init.go" />
+              <option value="file://$PROJECT_DIR$/service-file/config/init.go" />
+              <option value="file://$PROJECT_DIR$/service-user/config/init.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="conversationService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/chatService/conversationService.pb.micro.go" />
+              <option value="file://$PROJECT_DIR$/service-chat/chatService/conversationService.pb.micro.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="conversationServiceAssistantMessage">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/chatService/conversationService.pb.micro.go" />
+              <option value="file://$PROJECT_DIR$/service-chat/chatService/conversationService.pb.micro.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="conversationServiceAssistantMessageStream">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/chatService/conversationService.pb.micro.go" />
+              <option value="file://$PROJECT_DIR$/service-chat/chatService/conversationService.pb.micro.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="conversationServiceCreateTitle">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/chatService/conversationService.pb.micro.go" />
+              <option value="file://$PROJECT_DIR$/service-chat/chatService/conversationService.pb.micro.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="conversationServiceCreateTitleStream">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/chatService/conversationService.pb.micro.go" />
+              <option value="file://$PROJECT_DIR$/service-chat/chatService/conversationService.pb.micro.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="conversationServiceHandler">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/chatService/conversationService.pb.micro.go" />
+              <option value="file://$PROJECT_DIR$/service-chat/chatService/conversationService.pb.micro.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="fileService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/fileService/fileService.pb.micro.go" />
+              <option value="file://$PROJECT_DIR$/service-file/fileService/fileService.pb.micro.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="fileServiceHandler">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/fileService/fileService.pb.micro.go" />
+              <option value="file://$PROJECT_DIR$/service-file/fileService/fileService.pb.micro.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="userService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/userService/userService.pb.micro.go" />
+              <option value="file://$PROJECT_DIR$/service-user/userService/userService.pb.micro.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="userServiceHandler">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/userService/userService.pb.micro.go" />
+              <option value="file://$PROJECT_DIR$/service-user/userService/userService.pb.micro.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="userWrapper">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/wrapper/userWrapper.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="x">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api-gateway/service/chatService/conversationModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/api-gateway/service/chatService/conversationService.pb.go" />
+              <option value="file://$PROJECT_DIR$/api-gateway/service/fileService/fileModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/api-gateway/service/fileService/fileService.pb.go" />
+              <option value="file://$PROJECT_DIR$/api-gateway/service/userService/userModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/api-gateway/service/userService/userService.pb.go" />
+              <option value="file://$PROJECT_DIR$/service-chat/chatService/conversationModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/service-chat/chatService/conversationService.pb.go" />
+              <option value="file://$PROJECT_DIR$/service-file/fileService/fileModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/service-file/fileService/fileService.pb.go" />
+              <option value="file://$PROJECT_DIR$/service-user/userService/userModel.pb.go" />
+              <option value="file://$PROJECT_DIR$/service-user/userService/userService.pb.go" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="scannedPathMapping">
+      <map>
+        <entry key="file://$PROJECT_DIR$/api-gateway/config/init.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1711330626876" />
+              <option name="schema">
+                <list>
+                  <option value="Server" />
+                  <option value="Etcd" />
+                  <option value="conf" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712625558815" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/pkg/consts/consts.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1709985854526" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/pkg/respmsg/msg.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1714721834442" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/pkg/statuscode/code.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1714721809130" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/pkg/utils/jwt.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1711980032930" />
+              <option name="schema">
+                <list>
+                  <option value="UserClaims" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/pkg/utils/logger/init.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1711983125049" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/service/chatService/conversationModel.pb.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1714722909612" />
+              <option name="schema">
+                <list>
+                  <option value="CreateTitleRequest" />
+                  <option value="CreateTitleResponse" />
+                  <option value="AssistantMessageRequest" />
+                  <option value="AssistantMessageResponse" />
+                  <option value="ConversationsRequest" />
+                  <option value="ConversationsResponse" />
+                  <option value="ConversationsItem" />
+                  <option value="GetConversationRequest" />
+                  <option value="GetConversationResponse" />
+                  <option value="Mapping" />
+                  <option value="x" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/service/chatService/conversationModel.pb.micro.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1714722909612" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/service/chatService/conversationService.pb.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1714722909612" />
+              <option name="schema">
+                <list>
+                  <option value="x" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/service/chatService/conversationService.pb.micro.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1714722909613" />
+              <option name="schema">
+                <list>
+                  <option value="conversationService" />
+                  <option value="conversationServiceCreateTitle" />
+                  <option value="conversationServiceAssistantMessage" />
+                  <option value="ConversationService" />
+                  <option value="conversationServiceHandler" />
+                  <option value="conversationServiceCreateTitleStream" />
+                  <option value="conversationServiceAssistantMessageStream" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/service/fileService/fileModel.pb.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712633376556" />
+              <option name="schema">
+                <list>
+                  <option value="FileServiceResponse" />
+                  <option value="GetAvatarRequest" />
+                  <option value="UpdateAvatarRequest" />
+                  <option value="AvatarResp" />
+                  <option value="CreateNeuronRequest" />
+                  <option value="NeuronData" />
+                  <option value="CreateNeuronResponse" />
+                  <option value="DeleteNeuronRequest" />
+                  <option value="RenameNeuronRequest" />
+                  <option value="RenameNeuronResponse" />
+                  <option value="ListNeuronRequest" />
+                  <option value="ListNeuronResponse" />
+                  <option value="UploadDocumentRequest" />
+                  <option value="UploadDocumentResponse" />
+                  <option value="DeleteDocumentRequest" />
+                  <option value="ListDocumentsRequest" />
+                  <option value="DocumentData" />
+                  <option value="ListDocumentsResponse" />
+                  <option value="RenameDocumentRequest" />
+                  <option value="RenameDocumentResponse" />
+                  <option value="ListDocumentsInBinRequest" />
+                  <option value="ListDocumentsInBinResponse" />
+                  <option value="RecoveryDocumentRequest" />
+                  <option value="RecoveryDocumentResponse" />
+                  <option value="x" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/service/fileService/fileModel.pb.micro.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712014777680" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/service/fileService/fileService.pb.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712014777681" />
+              <option name="schema">
+                <list>
+                  <option value="x" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/service/fileService/fileService.pb.micro.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712014777681" />
+              <option name="schema">
+                <list>
+                  <option value="fileService" />
+                  <option value="FileService" />
+                  <option value="fileServiceHandler" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/service/userService/userModel.pb.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712633376570" />
+              <option name="schema">
+                <list>
+                  <option value="RegisterRequest" />
+                  <option value="LoginRequest" />
+                  <option value="StorageRequest" />
+                  <option value="ResetPwdRequest" />
+                  <option value="UpdatePwdRequest" />
+                  <option value="UserServiceResponse" />
+                  <option value="UserData" />
+                  <option value="UserLoginResponse" />
+                  <option value="StorageData" />
+                  <option value="StorageResponse" />
+                  <option value="SendEmailRequest" />
+                  <option value="x" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/service/userService/userModel.pb.micro.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1711979857842" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/service/userService/userService.pb.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1711979857842" />
+              <option name="schema">
+                <list>
+                  <option value="x" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/service/userService/userService.pb.micro.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1711979857842" />
+              <option name="schema">
+                <list>
+                  <option value="userService" />
+                  <option value="UserService" />
+                  <option value="userServiceHandler" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/types/chatdtos/chat.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1714726893988" />
+              <option name="schema">
+                <list>
+                  <option value="ConversationRequest" />
+                  <option value="ConversationMode" />
+                  <option value="Message" />
+                  <option value="Author" />
+                  <option value="Content" />
+                  <option value="TitleResponse" />
+                  <option value="ConversationResponse" />
+                  <option value="ConversationsResponse" />
+                  <option value="ConversationItem" />
+                  <option value="GetConversationResponse" />
+                  <option value="Mapping" />
+                  <option value="MessageStruct" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/types/filedtos/file.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712633376519" />
+              <option name="schema">
+                <list>
+                  <option value="FileResponse" />
+                  <option value="AvatarResponse" />
+                  <option value="UpdateAvatarRequest" />
+                  <option value="NeuronResponse" />
+                  <option value="RenameNeuronRequest" />
+                  <option value="ListNeuronResponse" />
+                  <option value="UploadDocumentRequest" />
+                  <option value="UploadDocumentResponse" />
+                  <option value="DeleteDocumentRequest" />
+                  <option value="DocumentResponse" />
+                  <option value="ListDocumentRequest" />
+                  <option value="ListDocumentsResponse" />
+                  <option value="RenameDocumentRequest" />
+                  <option value="RenameDocumentResponse" />
+                  <option value="RecoveryDocumentRequest" />
+                  <option value="RecoveryDocumentResponse" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/types/userdtos/user.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712633376490" />
+              <option name="schema">
+                <list>
+                  <option value="UserServiceResponse" />
+                  <option value="SendEmailRequest" />
+                  <option value="UserRegisterRequest" />
+                  <option value="UserLoginRequest" />
+                  <option value="UserLoginResponse" />
+                  <option value="StorageResponse" />
+                  <option value="UpdatePwdRequest" />
+                  <option value="ResetPwdRequest" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/weblib/handler/captcha.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1709888009667" />
+              <option name="schema">
+                <list>
+                  <option value="CaptchaResponse" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/weblib/handler/chat.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1714729419052" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/weblib/handler/file.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712633376575" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/weblib/handler/pkg.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1709992775392" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/weblib/handler/user.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712633376521" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/weblib/middleware/cors.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712633376901" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/weblib/middleware/init.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1711974075414" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/weblib/middleware/jwt.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1709994469104" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/weblib/router.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1713443738778" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/wrapper/chatWrapper.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712626842227" />
+              <option name="schema">
+                <list>
+                  <option value="ChatWrapper" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/wrapper/fileWrapper.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1709598618146" />
+              <option name="schema">
+                <list>
+                  <option value="FileWrapper" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api-gateway/wrapper/userWrapper.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1706233850453" />
+              <option name="schema">
+                <list>
+                  <option value="userWrapper" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1711843545550" />
+              <option name="schema">
+                <list>
+                  <option value="ChatMessage" />
+                  <option value="SessionPromptTemplate" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-chat/aiproxy/client.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712016222861" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-chat/aiproxy/client_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712040169895" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-chat/aiproxy/model.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1711957499259" />
+              <option name="schema">
+                <list>
+                  <option value="ConversationTitleRequest" />
+                  <option value="ConversationTitleResponse" />
+                  <option value="ConversationMessageRequest" />
+                  <option value="ConversationMessageResponse" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-chat/aiproxy/pkg.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1711799522924" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-chat/chatService/conversationModel.pb.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1714722909612" />
+              <option name="schema">
+                <list>
+                  <option value="CreateTitleRequest" />
+                  <option value="CreateTitleResponse" />
+                  <option value="AssistantMessageRequest" />
+                  <option value="AssistantMessageResponse" />
+                  <option value="ConversationsRequest" />
+                  <option value="ConversationsResponse" />
+                  <option value="ConversationsItem" />
+                  <option value="GetConversationRequest" />
+                  <option value="GetConversationResponse" />
+                  <option value="Mapping" />
+                  <option value="x" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-chat/chatService/conversationModel.pb.micro.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1714722909612" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-chat/chatService/conversationService.pb.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1714722909612" />
+              <option name="schema">
+                <list>
+                  <option value="x" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-chat/chatService/conversationService.pb.micro.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1714722909613" />
+              <option name="schema">
+                <list>
+                  <option value="conversationService" />
+                  <option value="conversationServiceCreateTitle" />
+                  <option value="conversationServiceAssistantMessage" />
+                  <option value="ConversationService" />
+                  <option value="conversationServiceHandler" />
+                  <option value="conversationServiceCreateTitleStream" />
+                  <option value="conversationServiceAssistantMessageStream" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-chat/config/init.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712025331911" />
+              <option name="schema">
+                <list>
+                  <option value="Server" />
+                  <option value="OpenAI" />
+                  <option value="Etcd" />
+                  <option value="Mysql" />
+                  <option value="Elastic" />
+                  <option value="conf" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-chat/core/conversionService.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1714724365295" />
+              <option name="schema">
+                <list>
+                  <option value="ConversionServer" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-chat/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712627481743" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-chat/pkg/logger/init.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1711983088980" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-chat/pkg/statuscode/code.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1714721785640" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-chat/repositry/dao/init.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1711327281168" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-chat/repositry/dao/migration.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1711981052841" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-chat/repositry/dao/operation.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1713442113251" />
+              <option name="schema">
+                <list>
+                  <option value="ResourceDao" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-chat/repositry/es/init.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712025673141" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-chat/repositry/es/model.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1714705348031" />
+              <option name="schema">
+                <list>
+                  <option value="Message" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-chat/repositry/es/operation.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1714706484880" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-chat/repositry/es/operation_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1713494543531" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-chat/repositry/model/conversation.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1713423611857" />
+              <option name="schema">
+                <list>
+                  <option value="Conversation" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-chat/repositry/model/message.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1711761283345" />
+              <option name="schema">
+                <list>
+                  <option value="Message" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-file/config/init.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1711330824455" />
+              <option name="schema">
+                <list>
+                  <option value="Server" />
+                  <option value="Minio" />
+                  <option value="Mysql" />
+                  <option value="Etcd" />
+                  <option value="RabbitMQ" />
+                  <option value="conf" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-file/core/fileService.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1715066853508" />
+              <option name="schema">
+                <list>
+                  <option value="FileService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-file/core/pkg.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1709542838369" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-file/fileService/fileModel.pb.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712633376511" />
+              <option name="schema">
+                <list>
+                  <option value="FileServiceResponse" />
+                  <option value="GetAvatarRequest" />
+                  <option value="UpdateAvatarRequest" />
+                  <option value="AvatarResp" />
+                  <option value="CreateNeuronRequest" />
+                  <option value="NeuronData" />
+                  <option value="CreateNeuronResponse" />
+                  <option value="DeleteNeuronRequest" />
+                  <option value="RenameNeuronRequest" />
+                  <option value="RenameNeuronResponse" />
+                  <option value="ListNeuronRequest" />
+                  <option value="ListNeuronResponse" />
+                  <option value="UploadDocumentRequest" />
+                  <option value="UploadDocumentResponse" />
+                  <option value="DeleteDocumentRequest" />
+                  <option value="ListDocumentsRequest" />
+                  <option value="DocumentData" />
+                  <option value="ListDocumentsResponse" />
+                  <option value="RenameDocumentRequest" />
+                  <option value="RenameDocumentResponse" />
+                  <option value="ListDocumentsInBinRequest" />
+                  <option value="ListDocumentsInBinResponse" />
+                  <option value="RecoveryDocumentRequest" />
+                  <option value="RecoveryDocumentResponse" />
+                  <option value="x" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-file/fileService/fileModel.pb.micro.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712014777680" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-file/fileService/fileService.pb.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712014777681" />
+              <option name="schema">
+                <list>
+                  <option value="x" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-file/fileService/fileService.pb.micro.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712014777681" />
+              <option name="schema">
+                <list>
+                  <option value="fileService" />
+                  <option value="FileService" />
+                  <option value="fileServiceHandler" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-file/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1711331848577" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-file/pkg/consts/const.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1710313443612" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-file/pkg/statuscode/code.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1710319631634" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-file/pkg/utils/idmaker/maker.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1710401141058" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-file/pkg/utils/logger/init.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1711983052126" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-file/repositry/dao/init_mysql.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1711331368648" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-file/repositry/dao/migration.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1711331382314" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-file/repositry/dao/operation.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1713314827669" />
+              <option name="schema">
+                <list>
+                  <option value="ResourceDao" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-file/repositry/model/document.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712015295417" />
+              <option name="schema">
+                <list>
+                  <option value="Document" />
+                  <option value="Metadata" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-file/repositry/model/neuron.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712015262341" />
+              <option name="schema">
+                <list>
+                  <option value="Neuron" />
+                  <option value="NeuronConfig" />
+                  <option value="LLMParam" />
+                  <option value="Permission" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-file/repositry/model/user.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1710388052828" />
+              <option name="schema">
+                <list>
+                  <option value="User" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-file/repositry/mq/consum.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1710329970989" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-file/repositry/mq/init.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1711333414458" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-file/repositry/mq/queue.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712015313698" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-file/repositry/oss/init.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1711798594700" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-file/repositry/oss/key.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1709522470270" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-user/config/init.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1711333846129" />
+              <option name="schema">
+                <list>
+                  <option value="Server" />
+                  <option value="Mysql" />
+                  <option value="Etcd" />
+                  <option value="Redis" />
+                  <option value="Email" />
+                  <option value="conf" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-user/core/pkg.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1710068329008" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-user/core/userService.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1710150352180" />
+              <option name="schema">
+                <list>
+                  <option value="UserService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-user/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1711333476814" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-user/pkg/consts/const.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1709985824981" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-user/pkg/statuscode/code.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1710067135724" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-user/pkg/utils/captcha/email.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1709883998544" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-user/pkg/utils/idmaker/maker.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1711979945996" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-user/pkg/utils/logger/init.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1711983066629" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-user/repositry/cache/init.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1711334488522" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-user/repositry/cache/key.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1709898322937" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-user/repositry/dao/email.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1711333991562" />
+              <option name="schema">
+                <list>
+                  <option value="MailDao" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-user/repositry/dao/init_mysql.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1711334033293" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-user/repositry/dao/migration.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1711333914033" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-user/repositry/dao/operation.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1711979962287" />
+              <option name="schema">
+                <list>
+                  <option value="UserDao" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-user/repositry/model/email.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1709864957598" />
+              <option name="schema">
+                <list>
+                  <option value="Mail" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-user/repositry/model/user.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1711979773034" />
+              <option name="schema">
+                <list>
+                  <option value="User" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-user/userService/userModel.pb.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1712633376564" />
+              <option name="schema">
+                <list>
+                  <option value="RegisterRequest" />
+                  <option value="LoginRequest" />
+                  <option value="StorageRequest" />
+                  <option value="ResetPwdRequest" />
+                  <option value="UpdatePwdRequest" />
+                  <option value="UserServiceResponse" />
+                  <option value="UserData" />
+                  <option value="UserLoginResponse" />
+                  <option value="StorageData" />
+                  <option value="StorageResponse" />
+                  <option value="SendEmailRequest" />
+                  <option value="x" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-user/userService/userModel.pb.micro.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1711979857842" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-user/userService/userService.pb.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1711979857842" />
+              <option name="schema">
+                <list>
+                  <option value="x" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/service-user/userService/userService.pb.micro.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1711979857842" />
+              <option name="schema">
+                <list>
+                  <option value="userService" />
+                  <option value="UserService" />
+                  <option value="userServiceHandler" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="tableStructMapping">
+      <map>
+        <entry key="assistant_message_request" value="AssistantMessageRequest" />
+        <entry key="assistant_message_response" value="AssistantMessageResponse" />
+        <entry key="author" value="Author" />
+        <entry key="avatar_resp" value="AvatarResp" />
+        <entry key="avatar_response" value="AvatarResponse" />
+        <entry key="captcha_response" value="CaptchaResponse" />
+        <entry key="chat_message" value="ChatMessage" />
+        <entry key="chat_wrapper" value="ChatWrapper" />
+        <entry key="conf" value="conf" />
+        <entry key="content" value="Content" />
+        <entry key="conversation" value="Conversation" />
+        <entry key="conversation_item" value="ConversationItem" />
+        <entry key="conversation_message_request" value="ConversationMessageRequest" />
+        <entry key="conversation_message_response" value="ConversationMessageResponse" />
+        <entry key="conversation_mode" value="ConversationMode" />
+        <entry key="conversation_request" value="ConversationRequest" />
+        <entry key="conversation_response" value="ConversationResponse" />
+        <entry key="conversation_service" value="ConversationService" />
+        <entry key="conversation_service_assistant_message" value="conversationServiceAssistantMessage" />
+        <entry key="conversation_service_assistant_message_stream" value="conversationServiceAssistantMessageStream" />
+        <entry key="conversation_service_create_title" value="conversationServiceCreateTitle" />
+        <entry key="conversation_service_create_title_stream" value="conversationServiceCreateTitleStream" />
+        <entry key="conversation_service_handler" value="conversationServiceHandler" />
+        <entry key="conversation_title_request" value="ConversationTitleRequest" />
+        <entry key="conversation_title_response" value="ConversationTitleResponse" />
+        <entry key="conversations_item" value="ConversationsItem" />
+        <entry key="conversations_request" value="ConversationsRequest" />
+        <entry key="conversations_response" value="ConversationsResponse" />
+        <entry key="conversion_server" value="ConversionServer" />
+        <entry key="create_neuron_request" value="CreateNeuronRequest" />
+        <entry key="create_neuron_response" value="CreateNeuronResponse" />
+        <entry key="create_title_request" value="CreateTitleRequest" />
+        <entry key="create_title_response" value="CreateTitleResponse" />
+        <entry key="delete_document_request" value="DeleteDocumentRequest" />
+        <entry key="delete_neuron_request" value="DeleteNeuronRequest" />
+        <entry key="document" value="Document" />
+        <entry key="document_data" value="DocumentData" />
+        <entry key="document_response" value="DocumentResponse" />
+        <entry key="elastic" value="Elastic" />
+        <entry key="email" value="Email" />
+        <entry key="etcd" value="Etcd" />
+        <entry key="file_response" value="FileResponse" />
+        <entry key="file_service" value="FileService" />
+        <entry key="file_service_handler" value="fileServiceHandler" />
+        <entry key="file_service_response" value="FileServiceResponse" />
+        <entry key="file_wrapper" value="FileWrapper" />
+        <entry key="get_avatar_request" value="GetAvatarRequest" />
+        <entry key="get_conversation_request" value="GetConversationRequest" />
+        <entry key="get_conversation_response" value="GetConversationResponse" />
+        <entry key="list_document_request" value="ListDocumentRequest" />
+        <entry key="list_documents_in_bin_request" value="ListDocumentsInBinRequest" />
+        <entry key="list_documents_in_bin_response" value="ListDocumentsInBinResponse" />
+        <entry key="list_documents_request" value="ListDocumentsRequest" />
+        <entry key="list_documents_response" value="ListDocumentsResponse" />
+        <entry key="list_neuron_request" value="ListNeuronRequest" />
+        <entry key="list_neuron_response" value="ListNeuronResponse" />
+        <entry key="llm_param" value="LLMParam" />
+        <entry key="login_request" value="LoginRequest" />
+        <entry key="mail" value="Mail" />
+        <entry key="mail_dao" value="MailDao" />
+        <entry key="mapping" value="Mapping" />
+        <entry key="message" value="Message" />
+        <entry key="message_struct" value="MessageStruct" />
+        <entry key="metadata" value="Metadata" />
+        <entry key="minio" value="Minio" />
+        <entry key="mysql" value="Mysql" />
+        <entry key="neuron" value="Neuron" />
+        <entry key="neuron_config" value="NeuronConfig" />
+        <entry key="neuron_data" value="NeuronData" />
+        <entry key="neuron_response" value="NeuronResponse" />
+        <entry key="open_ai" value="OpenAI" />
+        <entry key="permission" value="Permission" />
+        <entry key="rabbit_mq" value="RabbitMQ" />
+        <entry key="recovery_document_request" value="RecoveryDocumentRequest" />
+        <entry key="recovery_document_response" value="RecoveryDocumentResponse" />
+        <entry key="redis" value="Redis" />
+        <entry key="register_request" value="RegisterRequest" />
+        <entry key="rename_document_request" value="RenameDocumentRequest" />
+        <entry key="rename_document_response" value="RenameDocumentResponse" />
+        <entry key="rename_neuron_request" value="RenameNeuronRequest" />
+        <entry key="rename_neuron_response" value="RenameNeuronResponse" />
+        <entry key="reset_pwd_request" value="ResetPwdRequest" />
+        <entry key="resource_dao" value="ResourceDao" />
+        <entry key="send_email_request" value="SendEmailRequest" />
+        <entry key="server" value="Server" />
+        <entry key="session_prompt_template" value="SessionPromptTemplate" />
+        <entry key="storage_data" value="StorageData" />
+        <entry key="storage_request" value="StorageRequest" />
+        <entry key="storage_response" value="StorageResponse" />
+        <entry key="title_response" value="TitleResponse" />
+        <entry key="update_avatar_request" value="UpdateAvatarRequest" />
+        <entry key="update_pwd_request" value="UpdatePwdRequest" />
+        <entry key="upload_document_request" value="UploadDocumentRequest" />
+        <entry key="upload_document_response" value="UploadDocumentResponse" />
+        <entry key="user" value="User" />
+        <entry key="user_claims" value="UserClaims" />
+        <entry key="user_dao" value="UserDao" />
+        <entry key="user_data" value="UserData" />
+        <entry key="user_login_request" value="UserLoginRequest" />
+        <entry key="user_login_response" value="UserLoginResponse" />
+        <entry key="user_register_request" value="UserRegisterRequest" />
+        <entry key="user_service" value="UserService" />
+        <entry key="user_service_handler" value="userServiceHandler" />
+        <entry key="user_service_response" value="UserServiceResponse" />
+        <entry key="user_wrapper" value="userWrapper" />
+        <entry key="x" value="x" />
+      </map>
+    </option>
+    <option name="lastTimeChecked" value="1717655035199" />
+  </component>
+</project>

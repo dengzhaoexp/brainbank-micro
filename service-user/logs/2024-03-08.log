@@ -1,0 +1,5 @@
+time="2024-03-08 10:11:02" level=error msg="查询用户邮件是否存在时出错:Error 1054 (42S22): Unknown column 'email' in 'where clause'" func="user/core.(*UserService).SendEmail" file="/Users/zhaodeng/go_workspace/BrainBank/service-user/core/userService.go:272"
+time="2024-03-08 10:26:28" level=error msg="查询用户邮件是否存在时出错:Error 1054 (42S22): Unknown column 'email' in 'where clause'" func="user/core.(*UserService).SendEmail" file="/Users/zhaodeng/go_workspace/BrainBank/service-user/core/userService.go:272"
+time="2024-03-08 10:27:31" level=error msg="查询注册邮件content出错:invalid value, should be pointer to struct or slice" func="user/core.(*UserService).SendEmail" file="/Users/zhaodeng/go_workspace/BrainBank/service-user/core/userService.go:285"
+time="2024-03-08 10:30:42" level=error msg="查询注册邮件content出错:invalid value, should be pointer to struct or slice" func="user/core.(*UserService).SendEmail" file="/Users/zhaodeng/go_workspace/BrainBank/service-user/core/userService.go:285"
+time="2024-03-08 20:05:45" level=error msg="获取邮件验证码发生错误:redis: nil" func="user/core.(*UserService).UserRegister" file="/Users/zhaodeng/go_workspace/BrainBank/service-user/core/userService.go:62"

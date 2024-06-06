@@ -1,0 +1,2 @@
+time="2024-03-10 11:18:13" level=error msg="用户入库时出错:Error 1062 (23000): Duplicate entry '1' for key 'user.PRIMARY'" func="user/core.(*UserService).UpdatePassword" file="/Users/zhaodeng/go_workspace/BrainBank/service-user/core/userService.go:229"
+time="2024-03-10 11:18:29" level=error msg="用户入库时出错:Error 1062 (23000): Duplicate entry '1' for key 'user.PRIMARY'" func="user/core.(*UserService).UpdatePassword" file="/Users/zhaodeng/go_workspace/BrainBank/service-user/core/userService.go:229"

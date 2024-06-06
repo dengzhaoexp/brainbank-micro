@@ -1,0 +1,106 @@
+syntax = "proto3";
+package chatService;
+option go_package="../;chatService";
+
+message CreateTitleRequest {
+  // 发起会话的用户 ID,用于识别会话的发起者
+  string user_id = 1;
+  // 这是用户发送的第一条消息内容,将作为会话的起始消息
+  repeated string message_content = 2;
+  // 会话语言
+  string Language = 3;
+}
+
+message CreateTitleResponse {
+  // 响应的状态码,用于表示请求是否成功,如 200 表示成功、400 表示错误等
+  uint32 code = 1;
+  // LLM 生成的响应消息内容,作为对用户发送的第一条消息的回复
+  string title_content = 2;
+  // session 的ID
+  string conversion_id = 3;
+}
+
+message AssistantMessageRequest{
+  // 会话ID
+  string  conversion_id = 1;
+  // 会话模式
+  string conversation_mode = 2;
+  // 会话内容
+  repeated string content = 3;
+  // 会话类型
+  string content_type = 4;
+  // 会话语言
+  string language = 5;
+}
+
+message AssistantMessageResponse{
+  // 响应状态码
+  uint32 code = 1;
+  // 响应消息
+  repeated string messages = 2;
+  // 消息id
+  string message_id = 3;
+}
+
+message ConversationsRequest {
+  // 用户id
+  string user_id = 1;
+  // 偏移量
+  uint32  offset = 2;
+  // 限制量
+  uint32  limit = 3;
+  // 排序方式
+  string order = 4;
+}
+
+message ConversationsResponse {
+  // 返回状态码
+  uint32 code = 1;
+  repeated ConversationsItem items = 2;
+  uint32 total = 3;
+  uint32 limit = 4;
+  bool has_missing_conversations = 5;
+}
+
+message ConversationsItem {
+  string conversation_id = 1;
+  string conversation_title = 2;
+  string create_time = 3;
+  string Update_time = 4;
+  string mapping = 5;
+  string current_node = 6;
+  string conversation_template_id = 7;
+  string gizmo_id = 8;
+  bool is_archived = 9;
+  string workspace_id = 10;
+}
+
+message GetConversationRequest {
+  // 会话id
+  string conversation_id = 1;
+}
+
+message GetConversationResponse {
+  // 响应码
+  uint32 code = 1;
+  // 会话title
+  string conversation_title = 2;
+  // 会话创建时间
+  string created_time = 3;
+  // 会话更新时间
+  string update_time = 4;
+  // 内容
+  map<string,Mapping>  mapping = 5;
+  //
+}
+
+message Mapping {
+  // 消息id
+  string message_id = 1;
+  // 消息创建时间
+  string create_time = 2;
+  // 消息内容
+  string content = 3;
+  // 状态
+  string type = 4;
+}

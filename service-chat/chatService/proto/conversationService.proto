@@ -1,0 +1,17 @@
+syntax = "proto3";
+package chatService;
+
+import "conversationModel.proto";
+
+option go_package = "../;chatService";
+
+service ConversationService {
+  // 创建会话标题
+  rpc CreateTitle(CreateTitleRequest) returns (stream CreateTitleResponse){}
+  // 响应用户消息
+  rpc  AssistantMessage(AssistantMessageRequest) returns (stream AssistantMessageResponse){}
+  // 获取用户所有会话
+  rpc Conversations(ConversationsRequest) returns (ConversationsResponse){}
+  // 获取会话消息
+  rpc GetConversation(GetConversationRequest) returns (GetConversationResponse){}
+}
